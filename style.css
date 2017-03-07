@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+#abstract-company-header {
+    background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('images/abstract.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 60vh;
+}
+
+.text-block {
+    padding-top: 10%;
+}
+
+.text-block-etc {
+    padding-top: 3%;
+    text-align: center;
+}
+
+.text-block-etc h1 {
+    font-size: 2em;
+}
+
+footer .text-block-etc p {
+    font-size: 1.5em;
+}
+
+.header-text {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+h1.header-text  {
+    font-size: 4em;
+}
+
+h2.header-text {
+
+}
+
+header, section {
+    /*margin-top: -4%;*/
+}
+
+.divider {
+    display: flex;
+    margin: 2px 0;
+    box-shadow: 0 0 40px rgba(0,0,0,0.9); /* Параметры тени */
+    height: 1px;
+    background-color: gray;
+}
+
+
+#motivation {
+    height: 60vh;
+    background-color: #DADFE1;
+    position: relative;
+}
+.motivation-block {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.motivation-avatar {
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    float: left;
+    margin-top: 3%;
+}
+
+.company-quote {
+    width: 50%;
+    font-size: 2em;
+    float: left;
+}
+
+.author {
+    font-style: italic;
+}
+
+#about {
+    height: 60vh;
+    background-color: #D2D7D3;
+    text-align: center;
+}
+
+.about-block {
+    padding-top: 5%;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-paragraph {
+    font-size: 1.5em;
+}
+
+.about-header {
+    font-size: 2em;
+}
+
+#etc {
+    min-height: 60vh;
+    background-color: #DADFE1;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.control-organs {
+    font-size: 1.5em;
+}
+
+ul {
+    display:list-item;
+}
